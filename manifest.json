@@ -1,0 +1,41 @@
+{
+    "widget":{
+        "name": "agadullin",
+        "description": "widget.description",
+        "short_description": "widget.short_description",
+        "code": "agadullin",
+        "secret_key": "59656b5e2993078cf20a9c969e6bdc9551dd20983261309e86be59fb81bdff13",
+        "version": "1.0.6",
+        "interface_version": 2,
+        "init_once": false,
+        "locale":[
+            "ru",
+            "en"
+        ],
+        "installation": true,
+        "support": {
+            "link": "https://www.amocrm.com",
+            "email": "support@amocrm.com"
+        }
+    },
+    "locations":[
+        "llist-1"
+    ],
+    "settings":{
+         "login":{
+             "name": "settings.login",
+             "type": "text",
+             "required": true
+         },
+         "api_key":{
+             "name": "settings.api_key",
+             "type": "text",
+             "required": true
+         },
+         "account":{
+             "name": "settings.account",
+             "type": "text",
+             "required": true
+         }
+    }
+}
